@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body,
+  .App,
+  #root {
+    height: 100%;
+  }
+
+  
+@import './custom_variables'; 
+@import "~bootstrap/scss/bootstrap";
+
+@import './custom';
+@import '../components/Navigation/navigation';

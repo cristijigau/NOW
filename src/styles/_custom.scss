@@ -1,0 +1,20 @@
+@include media-breakpoint-up(sm) {
+  .navbar {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+}
+@include media-breakpoint-up(md) {
+  .navbar {
+    padding: 0 2rem 0 2rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .navbar {
+    padding: 0 8.5rem 0 8.5rem;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .navbar {
+    padding: 0 8.5rem 0 8.5rem;
+  }
+}
