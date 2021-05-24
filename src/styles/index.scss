@@ -1,19 +1,28 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html,
-  body,
-  .App,
-  #root {
-    height: 100%;
-  }
+@import './custom_variables';
 
-  
-@import './custom_variables'; 
-@import "~bootstrap/scss/bootstrap";
-
-@import './custom';
 @import '../components/Navigation/navigation';
+@import '../components/FirstSection/first_section';
+@import '../components/SecondSection/second_section';
+@import '../components/ThirdSection/third_section';
+@import '../components/FourthSection/fourth_section';
+@import '../components/FifthSection/fifth_section';
+@import '../components/SixthSection/sixth_section';
+@import '../components/SeventhSection/seventh_section';
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.App,
+#root {
+  height: 100%;
+}
+
+body{
+  position: relative;
+}

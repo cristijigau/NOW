@@ -1,0 +1,105 @@
+@import '../../styles/fonts';
+
+.third-section {
+  .message {
+    font-family: SourceSansPro-Regular;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
+  .row {
+    padding: 0 2rem 0 2rem;
+  }
+  .row:first-child {
+    margin-top: 5rem;
+  }
+  .row:nth-child(2) > div[class*='col'] {
+    background-color: #d2c65e;
+    max-width: 322px;
+    height: 160px;
+    border-radius: 138px;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    box-shadow: 16px 1px 0px 0px rgba(210, 198, 94, 0.25),
+      32px 1px 0px 0px rgba(210, 198, 94, 0.16);
+
+    .card-text,
+    .map {
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .ball {
+      height: 140px;
+      width: 140px;
+      border-radius: 50%;
+      position: absolute;
+      top: 10px;
+      left: 16px;
+      background-color: #c9bd5c;
+      transition: transform 0.2s linear;
+    }
+
+    .checkbox {
+      display: none;
+    }
+
+    .checkbox:checked + .label .ball {
+      transform: translateX(105%);
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 555px;
+      height: 276px;
+      box-shadow: 32px 1px 0px 0px rgba(210, 198, 94, 0.25),
+        64px 1px 0px 0px rgba(210, 198, 94, 0.16);
+
+      .ball {
+        height: 250px;
+        width: 250px;
+      }
+    }
+  }
+
+  .row:nth-child(3) > div[class*='col']:first-child {
+    background-color: #677993;
+    max-width: 322px;
+    height: 160px;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    @include media-breakpoint-up(lg) {
+        margin-right: 2rem;
+        max-width: 555px;
+        height: 276px;
+    }
+    @include media-breakpoint-up(md) {
+        margin-right: 1.5rem;
+    }
+  }
+
+  .row:nth-child(3) > div[class*='col']:nth-child(2) {
+    background-color: #e85500;
+    max-width: 322px;
+    height: 160px;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    @include media-breakpoint-up(lg) {
+        max-width: 555px;
+        height: 276px;
+    }
+  }
+
+  .card-text {
+    font-family: SourceSansPro-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+}

@@ -1,4 +1,24 @@
 @font-face {
-  font-family: WhyteInktrap;
-  src: url('../assets/fonts/Whyteink/WhyteInktrap-Black.ttf') format('truetype');
+  font-family: WhyteInktrap-Light;
+  src: url('../assets/fonts/Whyteink/WhyteInktrap-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: WhyteInktrap-Medium;
+  src: url('../assets/fonts/Whyteink/WhyteInktrap-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: WhyteInktrap-Italic;
+  src: url('../assets/fonts/Whyteink/WhyteInktrap-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url('../assets/fonts/Source_pro/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: SourceSansPro-SemiBold;
+  src: url('../assets/fonts/Source_pro/SourceSansPro-SemiBold.ttf') format('truetype');
 }

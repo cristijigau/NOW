@@ -1,0 +1,85 @@
+@import '../../styles/fonts';
+
+.first-section {
+  margin-top: 10rem;
+
+  .container {
+    .row.welcome-message {
+      font-family: WhyteInktrap-Light;
+      font-size: 2rem;
+      font-weight: normal;
+      line-height: 1;
+      @include media-breakpoint-up(md) {
+        font-size: 4rem;
+      }
+      @include media-breakpoint-up(lg) {
+        font-size: 5rem;
+      }
+
+      span.strong {
+        font-family: WhyteInktrap-Medium;
+      }
+      span.strong.italic {
+        font-family: WhyteInktrap-Italic;
+      }
+      img.fun {
+        transform: rotate(-9deg);
+        width: 3.3rem;
+        height: 2.5rem;
+
+        @include media-breakpoint-up(md) {
+          width: 8rem;
+          height: 5rem;
+        }
+      }
+    }
+
+    $phone-width-lg: 339px;
+    $phone-height-lg: 623px;
+    $phone-width-md: 310px;
+    $phone-height-md: 619px;
+    $phone-width-sm: 187.5px;
+    $phone-height-sm: 374px;
+
+    .phone-container {
+      position: relative;
+
+      img.phone {
+        width: $phone-width-sm;
+        height: $phone-height-sm;
+        position: absolute;
+      }
+
+      .gradient {
+        width: 100%;
+        height: 23rem;
+        margin-top: ($phone-height-sm/2);
+        background-image: linear-gradient(
+          to top,
+          #ffffff,
+          rgba(255, 255, 255, 0.88),
+          rgba(255, 255, 255, 0)
+        );
+        z-index: 1;
+      }
+      @include media-breakpoint-up(md) {
+        img.phone {
+          width: $phone-width-md;
+          height: $phone-height-md;
+        }
+        .gradient {
+          margin-top: ($phone-height-md/2);
+        }
+      }
+      @include media-breakpoint-up(lg) {
+        img.phone {
+          width: $phone-width-lg;
+          height: $phone-height-lg;
+        }
+        .gradient {
+          margin-top: ($phone-height-lg/2);
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-@import '../../styles/fonts';
 
 .navbar {
   background-color: #ffffff;
@@ -26,11 +25,13 @@
 
   .appstore{
     background-image: url('../../assets/svg/ios_inactive.svg');
+    transition: background-image 0.3s;
     @extend %logo;
   }
 
   .play-market{
     background-image: url('../../assets/svg/android_inactive.svg');
+    transition: background-image 0.3s;
     @extend %logo;
   }
 
@@ -43,8 +44,26 @@
   }
 }
 
+@include media-breakpoint-up(sm) {
+  .navbar {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+}
 @include media-breakpoint-up(md) {
+  .navbar {
+    padding: 0 2rem 0 2rem;
+  }
   .get-the-app.collapse {
     display: block;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .navbar {
+    padding: 0 8.5rem 0 8.5rem;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .navbar {
+    padding: 0 8.5rem 0 8.5rem;
   }
 }
