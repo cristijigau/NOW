@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/NOW/static/css/main.7e6534ac.chunk.css",
+    "main.js": "/NOW/static/js/main.8a7dff10.chunk.js",
+    "main.js.map": "/NOW/static/js/main.8a7dff10.chunk.js.map",
+    "runtime-main.js": "/NOW/static/js/runtime-main.b0d2a7c9.js",
+    "runtime-main.js.map": "/NOW/static/js/runtime-main.b0d2a7c9.js.map",
+    "static/js/2.5c5997f5.chunk.js": "/NOW/static/js/2.5c5997f5.chunk.js",
+    "static/js/2.5c5997f5.chunk.js.map": "/NOW/static/js/2.5c5997f5.chunk.js.map",
+    "index.html": "/NOW/index.html",
+    "static/css/main.7e6534ac.chunk.css.map": "/NOW/static/css/main.7e6534ac.chunk.css.map",
+    "static/js/2.5c5997f5.chunk.js.LICENSE.txt": "/NOW/static/js/2.5c5997f5.chunk.js.LICENSE.txt",
+    "static/media/Apple logo.a27ab35b.svg": "/NOW/static/media/Apple logo.a27ab35b.svg",
+    "static/media/Icon-map.cc9dc8f2.svg": "/NOW/static/media/Icon-map.cc9dc8f2.svg",
+    "static/media/Icon-traffic.032f740d.svg": "/NOW/static/media/Icon-traffic.032f740d.svg",
+    "static/media/index.scss": "/NOW/static/media/ios_inactive.b69f2b58.svg",
+    "static/media/Transport.fc91156f.svg": "/NOW/static/media/Transport.fc91156f.svg",
+    "static/media/bg-video.b07308e6.mp4": "/NOW/static/media/bg-video.b07308e6.mp4",
+    "static/media/carpool-graph.07e06d9c.svg": "/NOW/static/media/carpool-graph.07e06d9c.svg",
+    "static/media/driver.db0b79cf.png": "/NOW/static/media/driver.db0b79cf.png",
+    "static/media/fun.e96f19d4.svg": "/NOW/static/media/fun.e96f19d4.svg",
+    "static/media/iPhone_X.20a255e3.png": "/NOW/static/media/iPhone_X.20a255e3.png",
+    "static/media/logo.dbeaaf5b.svg": "/NOW/static/media/logo.dbeaaf5b.svg",
+    "static/media/mock.ebe2b8b8.png": "/NOW/static/media/mock.ebe2b8b8.png",
+    "static/media/passenger.ebb30344.png": "/NOW/static/media/passenger.ebb30344.png",
+    "static/media/phone.21333ddb.png": "/NOW/static/media/phone.21333ddb.png",
+    "static/media/play_market.e9dd3d25.svg": "/NOW/static/media/play_market.e9dd3d25.svg",
+    "static/media/the.92a3da54.svg": "/NOW/static/media/the.92a3da54.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0d2a7c9.js",
+    "static/js/2.5c5997f5.chunk.js",
+    "static/css/main.7e6534ac.chunk.css",
+    "static/js/main.8a7dff10.chunk.js"
+  ]
+}
